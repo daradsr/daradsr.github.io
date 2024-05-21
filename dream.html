@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красота мира</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #d0ecfc;
+            margin: 2%;
+            padding: 2%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #301266;
+        }
+        p{
+            text-align: center;
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            height: 90%;
+
+        }
+        figcaption {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Невиданные красоты мира</h1>
+    </header>
+    <section>
+        <h3>Места в которых каждый хотел бы оказаться</h3>
+        <p>Просто нереально красивые места нашей планеты, где обязательно нужно побывать. 
+            Думаю многие даже не знали что у нас так много удивительных мест</p>
+    </section>
+    <div class="image-container">
+        <img src="скалы.jpg" alt="Image 1" class="skali" style="float: left;">
+        <img src="впадина.jpg" alt="Image 2" class="vpadina">
+        <img src="море.jpg" alt="Image 3" class="more">
+        <img src="водопад.jpg" alt="Image 3" class="vodapad"><br>
+        <figcaption>Цветные скалы Чжанъе Данксиа, Китай</figcaption>
+        <figcaption>Большая Голубая Дыра, Белиз</figcaption>
+        <figcaption>Море Звезд на острове Ваадху, Мальдивы</figcaption>
+        <figcaption>Водопад Виктория на стыке Зимбабве и Замбии</figcaption>
+    </div>
+    <footer>
+        <p>В этом мире царит гармония и красота, дарующая нам вдохновение и радость.</p>
+    </footer>
+</body>
+</html>
